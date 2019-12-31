@@ -1,4 +1,4 @@
-package com.tengol.design.pattern.hello.respchain.a1;
+package com.tengol.design.pattern.hello.respchain.handler;
 
 
 import lombok.*;
@@ -23,5 +23,5 @@ public abstract class Handler {
     private Handler nextHandler;
 
     //处理方法
-    public abstract void handleRequest();
+    public abstract void handleRequest(MyRequest request);
 }
