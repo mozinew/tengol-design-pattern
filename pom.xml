@@ -11,6 +11,8 @@
     <modules>
         <module>design-pattern-hello</module>
         <module>design-pattern-hsp</module>
+        <module>design-pattern-mooc</module>
+        <module>design-pattern-v1</module>
     </modules>
 
     <properties>
